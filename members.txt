@@ -7,7 +7,7 @@ Member 1:
     GitHub:     Nipun-Ruwanpathirana
 
 Member 2:
-    Name:       <fill in>
-    Student ID: <fill in>
-    Email:      <fill in>
-    GitHub:     <fill in>
+    Name:       Kavishka Dilshan
+    Student ID: MS26901176
+    Email:      ms26901176@my.sliit.lk
+    GitHub:
