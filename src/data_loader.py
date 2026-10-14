@@ -3,6 +3,7 @@
 Node 0 is the depot and nodes 1..n are the customers, so the same index is used
 for coordinates, demands and the distance matrix everywhere in the project.
 """
+from __future__ import annotations
 import csv
 import re
 from dataclasses import dataclass

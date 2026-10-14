@@ -3,6 +3,7 @@
 Never trust the cost a solver or heuristic reports about itself: every solution
 is re-checked here against the original CVRP rules and its cost is recomputed.
 """
+from __future__ import annotations
 from collections import Counter
 from dataclasses import dataclass, field
 
