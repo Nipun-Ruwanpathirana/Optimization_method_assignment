@@ -1,0 +1,17 @@
+name,cvrplib_id,tier,customers,vehicles,capacity,bks,bks_proven_optimal
+P-n16-k8,75,small,15,8,35,450,yes
+P-n19-k2,76,small,18,2,160,212,yes
+P-n20-k2,77,small,19,2,160,216,yes
+P-n22-k2,79,small,21,2,160,216,yes
+E-n22-k4,55,small,21,4,6000,375,yes
+P-n23-k8,81,small,22,8,40,529,yes
+B-n31-k5,6,medium,30,5,100,672,yes
+A-n32-k5,4,medium,31,5,100,784,yes
+A-n37-k5,10,medium,36,5,100,669,yes
+P-n40-k5,82,medium,39,5,140,458,yes
+A-n45-k7,17,medium,44,7,100,1146,yes
+E-n51-k5,60,medium,50,5,160,521,yes
+X-n101-k25,158,large,100,25,206,27591,yes
+X-n153-k22,169,large,152,22,144,21220,yes
+X-n200-k36,179,large,199,36,402,58578,yes
+X-n256-k16,191,large,255,16,1225,18839,yes
