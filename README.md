@@ -62,11 +62,19 @@ src/
   download_data.py       fetches the instances listed in instances.csv
   data_loader.py         Instance class, rounded distance matrix, best-known solutions
   checker.py             independent feasibility + cost check for any solution
+  clarke_wright.py       Clarke-Wright savings construction heuristic
+  local_search.py        2-opt, relocate, and swap neighborhood operators
+  simulated_annealing.py Simulated Annealing metaheuristic with geometric cooling
+  heuristics.py          unified facade for heuristic solvers
+  benchmark_heuristics.py full benchmark runner across all 16 instances
 tests/
   test_checker.py        published solutions accepted, broken ones rejected
+  test_heuristics.py     heuristic solutions verified against independent checker
 notebooks/
   01_data_exploration.ipynb
+  02_heuristic_simulated_annealing.ipynb
 results/
+  heuristic_results.csv  benchmarks on all 16 instances (cost, gap %, runtime)
   figures/               figures used in the report
 ```
 
@@ -77,10 +85,10 @@ results/
 - [x] Independent feasibility checker and tests
 - [x] Data exploration notebook
 - [ ] Exact method: MILP model, solver runs, LP relaxation bound
-- [ ] Heuristic: savings construction
-- [ ] Heuristic: local search (relocate, swap, 2-opt)
-- [ ] Heuristic: simulated annealing and parameter study
-- [ ] Experiment runner, results tables and figures
+- [x] Heuristic: savings construction (Clarke-Wright)
+- [x] Heuristic: local search (relocate, swap, 2-opt)
+- [x] Heuristic: simulated annealing and parameter study
+- [x] Experiment runner, results tables and figures
 - [ ] Report (PDF), code appendix, video
 
 ## Team
