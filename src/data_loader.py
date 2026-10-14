@@ -79,6 +79,21 @@ def load_instance(name: str, raw_dir: Path = RAW_DIR) -> Instance:
     )
 
 
+def sub_instance(inst: Instance, m: int) -> Instance:
+    """The depot plus the first m customers of `inst`, unlimited fleet.
+
+    Used for the scalability study: same geography and demands, growing size."""
+    keep = slice(0, m + 1)
+    return Instance(
+        name=f"{inst.name}[:{m}]",
+        coords=inst.coords[keep],
+        demand=inst.demand[keep],
+        capacity=inst.capacity,
+        max_vehicles=None,
+        dist=inst.dist[keep, keep],
+    )
+
+
 def load_bks(name: str, raw_dir: Path = RAW_DIR) -> tuple[list[list[int]], float]:
     """Best-known solution published on CVRPLIB: (routes, cost)."""
     solution = vrplib.read_solution(raw_dir / f"{name}.sol")
