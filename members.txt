@@ -1,0 +1,13 @@
+IT5082 Optimization Methods - Programming Assignment (Group of 2)
+
+Member 1:
+    Name:       Nipun Ruwanpathirana
+    Student ID: <fill in>
+    Email:      <fill in>
+    GitHub:     Nipun-Ruwanpathirana
+
+Member 2:
+    Name:       <fill in>
+    Student ID: <fill in>
+    Email:      <fill in>
+    GitHub:     <fill in>
